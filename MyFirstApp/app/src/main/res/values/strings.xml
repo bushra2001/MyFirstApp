@@ -2,4 +2,11 @@
     <string name="app_name">MyFirstApp</string>
     <string name="button1">CLICK HERE</string>
     <string name="textview1">HELLO PAKISTAN</string>
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string name="A_date">Arrival Date</string>
+    <string name="D_date">Departure Date</string>
+    <string name="no_of_guest">Number Of Guest</string>
+    <string name="flight_number">Flight Number</string>
+    <string name="Request">Special Request</string>
 </resources>
