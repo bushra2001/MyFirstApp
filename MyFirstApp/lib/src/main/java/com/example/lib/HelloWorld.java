@@ -12,7 +12,26 @@ public class HelloWorld {
     }
 
     public static void main(String args[]){
-        HelloWorld helloWorld = new HelloWorld();
+
+//        2) Write a Java program to create a new array list, add some colors (string) and print out the collection.
+//        ArrayList nameArray= new ArrayList();
+//        nameArray.add("Red");
+//        nameArray.add("Green");
+//        nameArray.add("Blue");
+//        nameArray.add("orange");
+//
+//        Iterator iterator = nameArray.iterator();
+//        while(iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
+
+//        3) Write a Java program to remove the third element from the array list.
+
+
+
+
+
+                HelloWorld helloWorld = new HelloWorld();
         helloWorld.testFunc();
 Student student1 = new Student();
 Student student2 = new Student();
@@ -38,14 +57,7 @@ student2.english=10;
         System.out.println("Student name is "+ Student.name);
 
         System.out.println("HELLO WORLD AND HELLO PAKISTAN");
-        // THIS IS MY FIRST JAVA PROGRAM
 
-        /* THIS
-        IS
-        MY
-        FIRST
-        PROGRAM
-         */
         ArrayList nameArray= new ArrayList();
         nameArray.add("Romesa");
         nameArray.add("Urba");

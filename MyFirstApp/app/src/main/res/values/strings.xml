@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
+    <string name="button1">CLICK HERE</string>
+    <string name="textview1">HELLO PAKISTAN</string>
 </resources>
