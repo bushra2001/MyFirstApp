@@ -100,29 +100,17 @@
             android:layout_width="wrap_content"
             android:layout_weight="2"/>
     </TableRow>
-
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Submit"/>
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="launchSecondActivity"
+        />
+    </RelativeLayout>
+
 </TableLayout>
-<!--<LinearLayout-->
-<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
-<!--    android:layout_height="match_parent"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:orientation="vertical"-->
-<!--    tools:context=".MainActivity">-->
-
-<!--    <Button-->
-<!--        android:id="@+id/btn_button1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/button1"/>-->
-<!--    <TextView-->
-<!--        android:id="@+id/tv_textview1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/textview1"/>-->
-
-<!--</LinearLayout>-->
